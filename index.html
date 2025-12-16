@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Assets Gallery</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 20px;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        margin-bottom: 30px;
+        font-size: 2.5em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .section {
+        background: white;
+        border-radius: 15px;
+        padding: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .section-title {
+        font-size: 1.8em;
+        color: #333;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #667eea;
+        display: inline-block;
+      }
+
+      .assets-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 25px;
+        margin-top: 20px;
+      }
+
+      .asset-item {
+        background: #f8f9fa;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 2px solid #e0e0e0;
+      }
+
+      .asset-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        border-color: #667eea;
+      }
+
+      .asset-preview {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        background: white;
+        border-radius: 8px;
+        padding: 10px;
+      }
+
+      .asset-preview svg {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      .asset-name {
+        font-weight: 600;
+        color: #333;
+        font-size: 0.9em;
+        word-break: break-word;
+      }
+
+      .asset-path {
+        font-size: 0.75em;
+        color: #666;
+        margin-top: 5px;
+        font-family: "Courier New", monospace;
+      }
+
+      .color-demo {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .color-box {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        border: 2px solid #ddd;
+        cursor: pointer;
+      }
+
+      .info-box {
+        background: #e3f2fd;
+        border-left: 4px solid #2196f3;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+      }
+
+      .info-box p {
+        margin: 5px 0;
+        color: #1976d2;
+      }
+
+      /* Color classes for demonstration */
+      .color-blue {
+        color: #2196f3;
+      }
+      .color-red {
+        color: #f44336;
+      }
+      .color-green {
+        color: #4caf50;
+      }
+      .color-orange {
+        color: #ff9800;
+      }
+      .color-purple {
+        color: #9c27b0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎨 Animation Assets Gallery</h1>
+
+      <div class="info-box">
+        <p><strong>Total Assets:</strong> 16 SVG files</p>
+        <p>
+          <strong>Purpose:</strong> These assets are designed for creating
+          educational animations for children
+        </p>
+        <p>
+          <strong>Features:</strong> All SVGs use currentColor, making them easy
+          to customize with any color scheme
+        </p>
+      </div>
+
+      <!-- Characters Section -->
+      <div class="section">
+        <h2 class="section-title">👦 Boy Characters (6)</h2>
+        <div class="assets-grid">
+          <div class="asset-item">
+            <div class="asset-preview color-blue">
+              <img src="assets/characters/smiling-boy.svg" alt="Smiling Boy" />
+            </div>
+            <div class="asset-name">Smiling Boy</div>
+            <div class="asset-path">assets/characters/smiling-boy.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-red">
+              <img src="assets/characters/excited-boy.svg" alt="Excited Boy" />
+            </div>
+            <div class="asset-name">Excited Boy</div>
+            <div class="asset-path">assets/characters/excited-boy.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-green">
+              <img src="assets/characters/walking-boy.svg" alt="Walking Boy" />
+            </div>
+            <div class="asset-name">Walking Boy</div>
+            <div class="asset-path">assets/characters/walking-boy.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-orange">
+              <img
+                src="assets/characters/laughing-boy.svg"
+                alt="Laughing Boy"
+              />
+            </div>
+            <div class="asset-name">Laughing Boy</div>
+            <div class="asset-path">assets/characters/laughing-boy.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-purple">
+              <img
+                src="assets/characters/pointing-boy.svg"
+                alt="Pointing Boy"
+              />
+            </div>
+            <div class="asset-name">Pointing Boy</div>
+            <div class="asset-path">assets/characters/pointing-boy.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-blue">
+              <img
+                src="assets/characters/standing-boy.svg"
+                alt="Standing Boy"
+              />
+            </div>
+            <div class="asset-name">Standing Boy</div>
+            <div class="asset-path">assets/characters/standing-boy.svg</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Objects Section -->
+      <div class="section">
+        <h2 class="section-title">🎮 Objects (6)</h2>
+        <div class="assets-grid">
+          <div class="asset-item">
+            <div class="asset-preview color-red">
+              <img src="assets/objects/ball.svg" alt="Ball" />
+            </div>
+            <div class="asset-name">Ball</div>
+            <div class="asset-path">assets/objects/ball.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-blue">
+              <img src="assets/objects/car.svg" alt="Car" />
+            </div>
+            <div class="asset-name">Car</div>
+            <div class="asset-path">assets/objects/car.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-green">
+              <img src="assets/objects/book.svg" alt="Book" />
+            </div>
+            <div class="asset-name">Book</div>
+            <div class="asset-path">assets/objects/book.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-orange">
+              <img src="assets/objects/robot.svg" alt="Robot" />
+            </div>
+            <div class="asset-name">Robot</div>
+            <div class="asset-path">assets/objects/robot.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-purple">
+              <img src="assets/objects/teddy-bear.svg" alt="Teddy Bear" />
+            </div>
+            <div class="asset-name">Teddy Bear</div>
+            <div class="asset-path">assets/objects/teddy-bear.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-red">
+              <img src="assets/objects/apple.svg" alt="Apple" />
+            </div>
+            <div class="asset-name">Apple</div>
+            <div class="asset-path">assets/objects/apple.svg</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backgrounds Section -->
+      <div class="section">
+        <h2 class="section-title">🌄 Backgrounds (4)</h2>
+        <div class="assets-grid">
+          <div class="asset-item">
+            <div class="asset-preview color-blue">
+              <img src="assets/backgrounds/classroom.svg" alt="Classroom" />
+            </div>
+            <div class="asset-name">Classroom</div>
+            <div class="asset-path">assets/backgrounds/classroom.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-green">
+              <img src="assets/backgrounds/playground.svg" alt="Playground" />
+            </div>
+            <div class="asset-name">Playground</div>
+            <div class="asset-path">assets/backgrounds/playground.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-green">
+              <img src="assets/backgrounds/park.svg" alt="Park" />
+            </div>
+            <div class="asset-name">Park</div>
+            <div class="asset-path">assets/backgrounds/park.svg</div>
+          </div>
+          <div class="asset-item">
+            <div class="asset-preview color-orange">
+              <img src="assets/backgrounds/home.svg" alt="Home" />
+            </div>
+            <div class="asset-name">Home</div>
+            <div class="asset-path">assets/backgrounds/home.svg</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Usage Instructions -->
+      <div class="section">
+        <h2 class="section-title">📖 Usage Instructions</h2>
+        <div style="padding: 20px; line-height: 1.8; color: #333">
+          <h3 style="margin-bottom: 15px; color: #667eea">For Model Access:</h3>
+          <ul style="list-style-position: inside; margin-bottom: 20px">
+            <li>
+              All assets are organized in subfolders: <code>characters/</code>,
+              <code>objects/</code>, and <code>backgrounds/</code>
+            </li>
+            <li>
+              File names follow a clear naming convention for easy programmatic
+              access
+            </li>
+            <li>
+              Characters: <code>smiling-boy.svg</code>,
+              <code>excited-boy.svg</code>, <code>walking-boy.svg</code>,
+              <code>laughing-boy.svg</code>, <code>pointing-boy.svg</code>,
+              <code>standing-boy.svg</code>
+            </li>
+            <li>
+              Objects: <code>ball.svg</code>, <code>car.svg</code>,
+              <code>book.svg</code>, <code>robot.svg</code>,
+              <code>teddy-bear.svg</code>, <code>apple.svg</code>
+            </li>
+            <li>
+              Backgrounds: <code>classroom.svg</code>,
+              <code>playground.svg</code>, <code>park.svg</code>,
+              <code>home.svg</code>
+            </li>
+          </ul>
+
+          <h3 style="margin-bottom: 15px; color: #667eea">
+            Color Customization:
+          </h3>
+          <ul style="list-style-position: inside">
+            <li>
+              All SVGs use <code>currentColor</code> and
+              <code>opacity</code> for easy color customization
+            </li>
+            <li>
+              You can change colors by setting the <code>color</code> CSS
+              property on the SVG element
+            </li>
+            <li>
+              Example:
+              <code
+                >&lt;img src="assets/characters/smiling-boy.svg" style="color:
+                #FF5733;"&gt;</code
+              >
+            </li>
+            <li>
+              Or embed directly:
+              <code>&lt;svg style="color: #FF5733;"&gt;...&lt;/svg&gt;</code>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Add interactive color demonstration
+      document.querySelectorAll(".asset-preview").forEach((preview) => {
+        const colors = [
+          "#2196F3",
+          "#f44336",
+          "#4CAF50",
+          "#FF9800",
+          "#9C27B0",
+          "#00BCD4",
+        ];
+        let colorIndex = 0;
+
+        preview.addEventListener("click", function () {
+          colorIndex = (colorIndex + 1) % colors.length;
+          this.style.color = colors[colorIndex];
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none">
+  <!-- Sky -->
+  <rect x="0" y="0" width="200" height="80" fill="currentColor" opacity="0.2"/>
+  <!-- Ground/grass -->
+  <rect x="0" y="80" width="200" height="70" fill="currentColor" opacity="0.4"/>
+  <!-- Sun -->
+  <circle cx="170" cy="20" r="15" fill="currentColor" opacity="0.6"/>
+  <!-- Cloud -->
+  <ellipse cx="40" cy="25" rx="12" ry="8" fill="white" opacity="0.5"/>
+  <ellipse cx="50" cy="25" rx="12" ry="8" fill="white" opacity="0.5"/>
+  <ellipse cx="45" cy="20" rx="10" ry="6" fill="white" opacity="0.5"/>
+  <!-- Tree -->
+  <rect x="120" y="60" width="8" height="20" fill="currentColor" opacity="0.6"/>
+  <circle cx="124" cy="55" r="18" fill="currentColor" opacity="0.5"/>
+  <!-- Slide -->
+  <rect x="20" y="70" width="6" height="30" fill="currentColor" opacity="0.5"/>
+  <line x1="20" y1="70" x2="35" y2="90" stroke="currentColor" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+  <rect x="30" y="88" width="8" height="12" fill="currentColor" opacity="0.5"/>
+</svg>
+

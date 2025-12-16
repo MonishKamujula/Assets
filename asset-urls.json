@@ -1,0 +1,34 @@
+{
+  "characters": [
+    "characters/smiling-boy.svg",
+    "characters/excited-boy.svg",
+    "characters/walking-boy.svg",
+    "characters/laughing-boy.svg",
+    "characters/pointing-boy.svg",
+    "characters/standing-boy.svg"
+  ],
+  "objects": [
+    "objects/ball.svg",
+    "objects/car.svg",
+    "objects/book.svg",
+    "objects/robot.svg",
+    "objects/teddy-bear.svg",
+    "objects/apple.svg"
+  ],
+  "sensory": [
+    "sensory/board.svg",
+    "sensory/window.svg",
+    "sensory/door.svg",
+    "sensory/desk.svg",
+    "sensory/chair.svg",
+    "sensory/sun.svg",
+    "sensory/cloud.svg",
+    "sensory/tree.svg",
+    "sensory/slide.svg",
+    "sensory/bench.svg",
+    "sensory/path.svg",
+    "sensory/house.svg",
+    "sensory/roof.svg",
+    "sensory/chimney.svg"
+  ]
+}

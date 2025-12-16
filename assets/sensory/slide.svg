@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 50" fill="none">
+  <!-- Slide support -->
+  <rect x="0" y="0" width="6" height="30" fill="currentColor" opacity="0.5"/>
+  <!-- Slide ramp -->
+  <line x1="0" y1="0" x2="20" y2="30" stroke="currentColor" stroke-width="4" opacity="0.5" stroke-linecap="round"/>
+  <!-- Slide base -->
+  <rect x="15" y="28" width="8" height="12" fill="currentColor" opacity="0.5"/>
+</svg>
+

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 50" fill="none">
+  <!-- Chair seat -->
+  <rect x="5" y="5" width="30" height="8" rx="2" fill="currentColor" opacity="0.5"/>
+  <!-- Chair back -->
+  <rect x="5" y="0" width="8" height="20" rx="1" fill="currentColor" opacity="0.5"/>
+  <!-- Chair legs -->
+  <rect x="8" y="13" width="4" height="37" rx="1" fill="currentColor" opacity="0.5"/>
+  <rect x="28" y="13" width="4" height="37" rx="1" fill="currentColor" opacity="0.5"/>
+</svg>
+

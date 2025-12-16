@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 50" fill="none">
+  <!-- Desk top -->
+  <rect x="0" y="0" width="80" height="8" rx="2" fill="currentColor" opacity="0.5"/>
+  <!-- Desk legs -->
+  <rect x="5" y="8" width="6" height="42" rx="1" fill="currentColor" opacity="0.5"/>
+  <rect x="69" y="8" width="6" height="42" rx="1" fill="currentColor" opacity="0.5"/>
+</svg>
+

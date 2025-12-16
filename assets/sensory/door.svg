@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 50" fill="none">
+  <!-- Door -->
+  <rect x="0" y="0" width="30" height="50" rx="3" fill="currentColor" opacity="0.4"/>
+  <!-- Door handle -->
+  <circle cx="25" cy="25" r="2" fill="currentColor" opacity="0.6"/>
+</svg>
+
